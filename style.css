@@ -96,6 +96,8 @@ section{
         background-color: #676d87; /* يغمق لون الخلفية قليلاً عند تحويل الفأرة فوقه */
     }
     
+    
+    
  
   /* تحديث لون الرمز وحجم الخط لرمز Twitter */
 .social-icons a{
@@ -136,4 +138,15 @@ section{
     transform: scale(1.05); /* تكبير الكرت عند تحويل الماوس */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* إضافة تأثير الإضاءة عند التحويل */
     cursor: pointer; 
+}
+#contact h2 {
+    background-color:#a3a3a3 ;
+    color: #f0f2fa;
+    text-align: center;
+
+    
+        letter-spacing: 0.5px; /* زيادة المسافة بين الحروف */
+        padding: 2.9375em 2.1875em; /* تحديد التباعد الداخلي للزر */
+        display:flexbox; 
+        border-radius: 15px; /* إضافة انحناء لحواف الزر */
 }
