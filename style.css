@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+
+*{
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+
+}
+
+header{
+    background-color: rgb(150, 154, 154);
+    width:100%;
+    position: fixed;
+    z-index:999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+
+
+}
+.logo{
+    text-decoration: rgb(22, 201, 241);
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(236, 241, 241);
+    text-transform: uppercase;
+}
+.navigation a{
+    text-decoration: rgb(253, 252, 251);
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(249, 249, 249);
+    text-transform: uppercase;
+    padding: 30px;
+}
+.navigation a:hover{color: hsl(236, 17%, 40%);}  
+
+section{
+    padding: 100px  200px;
+    background-color: #c7c8ca;
+    }
+    .main{
+        width: 100%;
+          min-height: 100vh;
+      
+        background: url(images/Alamri.png) no-repeat;
+        background-size: cover;
+        display: flex;
+        background-position: center;
+        align-items: center;
+        background-attachment: fixed;
+       
+    }            
+    .main h2 {
+        color: #ffffff;
+        font-size: 4em;
+        font-weight: 500;
+    }
+   
+    .main h2 span {
+        color: #696b6c;
+        font-weight: 600px;
+        font-size: 3em;
+        display: inline-block;
+        margin-bottom: 80px; /* يمكنك تعديل القيمة حسب الحاجة */
+    }
+    .main h3 {
+        color: #696b6c;
+        font-size: 2em;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }  
+    .main-btn {
+        color: #fff; /* تغيير لون النص إلى أبيض */
+        text-decoration: none; /* إزالة التأثيرات السفلية للنص */
+        font-size: 1.1em; /* تكبير حجم النص */
+        font-weight: 600; /* تكبير العرض الخطي */
+        background-color: #696b6c; /* تغيير لون الخلفية إلى الأزرق */
+        letter-spacing: 1px; /* زيادة المسافة بين الحروف */
+        padding: 0.9375em 2.1875em; /* تحديد التباعد الداخلي للزر */
+        display: inline-block; /* جعل الزر متوسطًا بين عناصر السوشال ميديا */
+        border-radius: 15px; /* إضافة انحناء لحواف الزر */
+        margin-bottom: 40px; /* إضافة هامش للأسفل لبعد السوشال ميديا */
+    }
+    .main-btn:hover {
+        transform: scale(1.1); /* يكبر الزر بنسبة 10% عند تحويل الفأرة فوقه */
+        background-color: #676d87; /* يغمق لون الخلفية قليلاً عند تحويل الفأرة فوقه */
+    }
+    
+ 
+  /* تحديث لون الرمز وحجم الخط لرمز Twitter */
+.social-icons a{
+    color: #696b6c; /* لون أبيض */
+    font-size: 3em; /* حجم الخط */
+    padding-right: 30px;
+
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #f4f5f9;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+
+    display: flex;
+     justify-content: center; 
+}
+
+.card {
+    background-color: #c7c8ca; /* تحديد لون الخلفية للكرت */
+    width: 21.25em; /* تحديد العرض بوحدة em */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل خفيف */
+    border-radius: 12px; /* تحديد شكل الزوايا */
+    padding: 20px; /* إضافة هامش داخلي للكرت */
+    margin: 15px; /* إضافة هامش خارجي للكرت */
+
+    transition: transform 0.3s, box-shadow 0.3s; /* إضافة تأثير الانتقال */
+
+}
+
+.card:hover {
+    transform: scale(1.05); /* تكبير الكرت عند تحويل الماوس */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* إضافة تأثير الإضاءة عند التحويل */
+    cursor: pointer; 
+}
